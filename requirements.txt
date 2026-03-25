@@ -1,0 +1,8 @@
+python-dotenv
+pip install fastapi uvicorn python-dotenv
+pip install llama-index langchain google-generativeai
+pip install pymongo neo4j
+pip install streamlit
+pymongo
+neo4j
+certifi
