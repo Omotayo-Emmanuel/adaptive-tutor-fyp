@@ -60,27 +60,3 @@ class Neo4jClient:
 # Instantiate the Neo4j client
 neo4j_db = Neo4jClient()
 
-
-# --- Optional: Quick Validation Check ---
-
-if __name__ == "__main__":
-    print("Testing database connections... \n")
-    
-    # Test MongoDB Connection
-    print("Attempting to connect to MongoDB Atlas...")
-    if mongodb.connect():
-        print("✅ MongoDB Atlas connection successful!")
-    else:
-        print("❌ MongoDB Atlas connection failed. Check your MONGO_URI and network settings.")
-    print("\n-----------------------------\n")
-    
-    
-    # Test Neo4j Connection
-    print("Attempting to connect to Neo4j AuraDB...")
-    if neo4j_db.connect():
-        print("✅ Neo4j AuraDB connection successful!")
-        neo4j_db.close()
-    else:
-        print("❌ Neo4j AuraDB connection failed. Check your NEO4J_URI, credentials, and network settings.")
-
-    

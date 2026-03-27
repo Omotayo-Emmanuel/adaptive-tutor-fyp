@@ -6,3 +6,4 @@ pip install streamlit
 pymongo
 neo4j
 certifi
+pip install pymupdf langchain-text-splitters

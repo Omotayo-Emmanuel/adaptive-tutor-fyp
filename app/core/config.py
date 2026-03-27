@@ -27,7 +27,7 @@ class Settings:
     
     # Azure OpenAI (For Human-in-the-Loop Feedback / RL Agent Fallback)
     AZURE_OPENAI_API_KEY: str = os.getenv("AZURE_OPENAI_API_KEY")
-    AZURE_OPENAI_ENDPOINT: str = os.getenv("AZURE_OPENAI_ENDPOINT")
+    AZURE_OPENAI_ENDPOINT : str = os.getenv("AZURE_OPENAI_ENDPOINT")
     
 # Instantiate the settings object to be used across the application
 settings = Settings()
